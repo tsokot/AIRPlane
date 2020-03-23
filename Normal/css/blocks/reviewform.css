@@ -1,0 +1,157 @@
+.review-form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 56px;
+}
+
+.review-form__wrapper{
+  padding: 43px 70px;
+  background-color: #f4f4f4;
+  width: 700px;
+  margin-right: 3px;
+}
+
+.review-form__title{
+  margin-bottom: 18px;
+}
+
+.review-form__row{
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.review-form__row:last-child{
+  margin-bottom: 0;
+}
+
+.review-form__label{
+  flex: 1;
+  margin-right: 20px;
+}
+
+.review-form__label:last-child{
+  margin-right: 0;
+}
+
+.review-form__subtitle{
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #262424;
+  font-weight: 300;
+}
+
+.review-form__input{
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  padding: 15px 10px;
+  outline: none;
+}
+
+.review-form__input:focus{
+  border-color: #5972b1;
+}
+
+.review-form__textarea{
+  height: 90px;
+  resize: vertical;
+  padding: 7px;
+}
+
+.review-form__radios{
+  display: flex;
+}
+
+.review-form__radios-label{
+  display: flex;
+  margin-right: 18px;
+  margin-top: 4px;
+}
+
+.review-form__radios-label:last-child{
+  margin-right: 0;
+}
+
+.review-form__radio{
+  display: none;
+}
+
+.review-form__radio-fake{
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #f6f6f6;
+  border: #c9c9c9 solid 1px;
+  position: relative;
+  margin-right: 5px;
+}
+
+.review-form__radio-fake:before{
+  content: '';
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: transparent;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.review-form__radio-subtitle{
+  font-size: 14px;
+  color: #262424;
+  font-weight: 300;
+}
+
+.review-form__radio:checked + .review-form__radio-fake{
+  border-color: #5972b1;
+}
+
+.review-form__radio:checked + .review-form__radio-fake:before{
+  background-color: #5972b1;
+}
+
+.review-form__radio:checked ~ .review-form__radio-subtitle{
+  color: #5972b1;
+}
+
+.review-form__button{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.review-form__col{
+  flex: 1;
+}
+
+.button{
+  padding: 15px 22px;
+  background-color: #5972b1;
+  border: none;
+  border-radius: 3px;
+}
+
+.button:focus{
+  border: none;
+  outline: none;
+}
+
+.button__name{
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 2px;
+  
+}
+
+.button__name::after{
+  content: url("../../img/button.png");
+  margin-left: 4px;
+}

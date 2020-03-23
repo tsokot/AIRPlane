@@ -1,0 +1,79 @@
+.contacts{
+  display: inline-block;
+  text-align: right;
+}
+.contacts__tel{
+  display: block;
+  font-size: 21px;
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contacts__schedule{
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.702);
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.contacts__schedule:hover{  
+  color: #FFF;
+}
+
+.contacts__schedule-contaner{
+  position: relative;
+}
+
+.contacts__schedule-menu{
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  position: absolute;
+  background-color: #fff;
+  margin-top: 20px;
+  right: 0;
+  border-radius: 5px;
+  min-width: 165px;
+  padding: 20px;
+  top: -9999px;
+  box-shadow: 0px 1px 10px 3px rgba(0,0,0,0.2);
+  transition: opacity .2s;
+}
+
+.contacts__schedule-menu:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  right: 0;
+  bottom: 100%;
+}
+
+.contacts__schedule-menu:after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  top: -7px;
+  right: 5px;
+  transform: rotate(45deg);
+  border-top-left-radius: 5px;
+}
+.contacts__schedule-contaner:hover .contacts__schedule-menu{
+  top:100%;
+}
+
+.contacts__schedule-office-work{
+  font-size: 14px;
+  font-weight: bold;
+  color: #5973b1;
+}
+
+.contacts__schedule-lunch{
+  font-size: 14px;
+  color: #000;
+  font-weight: normal;
+}

@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+  }
+  
+  ul , li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  body ,html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  .wrapper {
+    height: 100%; 
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .container{
+    display: flex;
+    width: 1060px;
+    margin: 0 auto;
+  }
+
+  .main__content{
+    flex: 1;
+    margin-bottom: 60px;
+  }
+
+  .container__margin-top{
+    margin-top: 41px;
+  }

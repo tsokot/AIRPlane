@@ -1,0 +1,169 @@
+.team__content{
+  margin-bottom: 61px;
+}
+
+.team__title{
+  margin-bottom: 37px;
+}
+
+.team-list__item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-bottom: none;
+  width: calc(100% / 3 - 40px);
+  margin-left: 40px;
+  margin-bottom: 43px;
+}
+
+.team__list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -40px;
+  margin-bottom: -43px;
+}
+
+.team-list__icon{
+  position: relative;
+  overflow: hidden;
+  width: 165px;
+  height: 165px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  margin-bottom: 14px;
+}
+
+.team-list__icon-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-list__name{
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.team-list__occupation{
+  font-size: 14px;
+  font-weight: 700;
+  color: #5972b1;
+  letter-spacing: 1px;
+  margin-bottom: 9px;
+}
+
+.team-list__text{
+  font-size: 14px;
+  line-height: 21px;
+  color: #262424;
+  font-weight: 300;
+}
+
+.team-list__icon:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #5972b1;
+  opacity: .6;
+}
+
+.team-list__icon:hover:before{
+  background-color: transparent;
+}
+
+.team-list__icon--alex:after{
+  content: 'Алексей';
+  position: absolute;
+  font-size: 1.333rem;
+  font-weight: bold;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.team-list__icon--inna:after{
+  content: 'Инна';
+  position: absolute;
+  font-size: 1.333rem;
+  font-weight: bold;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.team-list__icon--boris:after{
+  content: 'Борис';
+  position: absolute;
+  font-size: 1.333rem;
+  font-weight: bold;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.team-list__icon--elina:after{
+  content: 'Элина';
+  position: absolute;
+  font-size: 1.333rem;
+  font-weight: bold;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.team-list__icon--elena:after{
+  content: 'Елена';
+  position: absolute;
+  font-size: 1.333rem;
+  font-weight: bold;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.team-list__icon--yrii:after{
+  content: 'Юрий';
+  position: absolute;
+  font-size: 1.333rem;
+  font-weight: bold;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/**/
+
+.team-list__icon--alex:hover:after{
+  color: transparent;
+}
+
+.team-list__icon--inna:hover:after{
+  color: transparent;
+}
+
+.team-list__icon--boris:hover:after{
+  color: transparent;
+}
+
+.team-list__icon--elina:hover:after{
+  color: transparent;
+}
+
+.team-list__icon--elena:hover:after{
+  color: transparent;
+}
+
+.team-list__icon--yrii:hover:after{
+  color: transparent;
+}

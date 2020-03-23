@@ -1,0 +1,36 @@
+.footer{
+  background-color: #5972b1;
+  padding: 15px 0 8px 0px;
+}
+
+.container--footer{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__text , .footer__logo , .footer__social{
+  width: 33%;
+}
+
+.footer__text{
+  margin-top: -4px;
+  font-size: 14px;
+  line-height: 1.286;
+  color: #ffffff;
+  font-weight: 300;
+  padding-right: 115px;
+}
+
+.loftschool-link{
+  font-weight: 400;
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.autor{
+  font-weight: 400;
+}
+
+.footer__logo{
+  text-align: center;
+}

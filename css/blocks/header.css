@@ -1,0 +1,10 @@
+.header {
+  background-color: #5972b1;
+  padding: 17px 0;
+  margin-bottom: 24px;
+  }
+
+.container--header{
+  justify-content: space-between;
+  align-items: center;
+}

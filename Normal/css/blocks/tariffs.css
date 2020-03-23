@@ -1,0 +1,99 @@
+.tariffs{
+  margin-bottom: 48px;
+}
+.tariffs__title{
+  margin-top: -10px;
+  margin-left: -1px;
+  margin-bottom: 24px;
+}
+
+.tariffs__list{
+  display: flex;
+}
+
+.tariffs__item{
+  width: 250px;
+  margin-left: 20px;
+  text-align: center;
+  padding: 42px 27px;
+}
+
+.tariffs__item:first-child{
+  margin-left: 0;
+}
+
+.tariffs__item--active{
+  border: 1px solid #e8e8ec;
+  border-radius: 10px;
+}
+
+.tariffs__icon{
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background-color: #5972b1;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 32px;
+}
+
+.tariffs__img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tariffs__name{
+  font-size: 12px;
+  color: #262424;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+
+.tariffs__description{
+  font-size: 18px;
+  color: rgb(38, 36, 36);
+  font-weight: 300;
+  line-height: 1.7;
+  margin-bottom: 21px;
+}
+
+.tariffs__text{
+  margin-bottom: 5px;
+}
+
+.tariffs__content-list{
+  text-align: left;
+}
+
+.tariffs__content-item{
+  margin-bottom: 4px;
+}
+
+.tariffs__content-item:last-child{
+  margin-bottom: 0;
+}
+.tariffs__content-item::before{
+  content: '';
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: black;
+  vertical-align: middle;
+  margin-right: 22px;
+}
+
+.tariffs__price-currency , .tariffs__price-value{
+  display: inline-block;
+  font-size: 50px;
+  color: #252525;
+  font-weight: 400;
+}
+
+.tariffs__price-currency{
+  font-size: 30px;
+}

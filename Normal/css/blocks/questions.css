@@ -1,0 +1,30 @@
+
+.questions{
+  width: 100%;
+  background-color: #76b46f;
+  background-image: url(/img/questions.png);
+  margin-bottom: 54px;
+}
+
+.questions__wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 41px 0;
+}
+
+.questions__text{
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 300;
+  max-width: 640px;
+}
+
+.questions__text--number , .questions__text--textdecoration{
+  font-weight: 700;
+}
+
+.questions__text--textdecoration{
+  text-decoration: underline;
+}

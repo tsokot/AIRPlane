@@ -1,0 +1,30 @@
+
+.questions{
+  background-color: #5973b1;
+  background-image: url(/img/questions.png);
+  margin-bottom: 28px;
+  margin-top: 6px;
+}
+
+.questions__wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.questions__text{
+  padding: 23px 10px;
+  text-align: center;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.questions__text--number , .questions__text--textdecoration{
+  font-weight: 700;
+}
+
+.questions__text--textdecoration{
+  text-decoration: underline;
+}
